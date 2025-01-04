@@ -22,3 +22,19 @@
 > war 파일 tomcat/webapps 파일에 복사하고 tomcat 재시작하려고 하였으나, tomcat이 ubuntu에 서비스로 등록되어 있지 않음 <br>
 > 패키지 매니저 사용대신 tomcat 공식 웹사이트에서 압축을 풀고 다운로드하여 설치되지 않은 것으로 확인 <br>
 
+### 25.01.04
+> 8080 접속하니 tomcat 접속안되는 이슈 발생 <br>
+> 기존 톰캣 지우고 재설치 후 접속 확인 <br>
+> tomcat9.service 파일 생성 <br>
+> > ![image](https://github.com/user-attachments/assets/0cd74578-d12f-45c4-90df-4ba3c8a8e366)
+>
+> tomcat 서비스 실행할 전용 사용자와 그룹 생성
+> > ![image](https://github.com/user-attachments/assets/48addeb6-e234-4e11-b56e-019ec61a64e9)
+>
+> Tomcat 디렉토리 소유권 변경 및 권한 설정
+> >![image](https://github.com/user-attachments/assets/721bc4b1-6a28-4ffd-acb1-9d393ba0ea3a)
+>
+> Tomcat 서비스 등록 확인
+> >![image](https://github.com/user-attachments/assets/28e64ac8-bbb6-427a-9862-b0f8ad2d7a75)
+
+
