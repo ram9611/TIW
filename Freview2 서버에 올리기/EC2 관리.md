@@ -37,4 +37,9 @@
 > Tomcat 서비스 등록 확인
 > >![image](https://github.com/user-attachments/assets/28e64ac8-bbb6-427a-9862-b0f8ad2d7a75)
 
+### 25.01.30
+> FReview2를 톰캣에 배포하였으나 url 접속시 404에러 발생 <br>
+> tomcat 지우고 다시 설치 <br>
+> 배포까지 하고 catalina.out에서 오류 확인하며 진행 필요 <br>
+
 
